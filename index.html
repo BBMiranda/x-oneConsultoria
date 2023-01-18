@@ -8,7 +8,6 @@
   <title>ONE. Consultoria</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -31,7 +30,7 @@
 </head>
 
 <body>
-
+  
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
@@ -93,8 +92,6 @@
 
       </div>
     </section><!-- End About Section -->
-
-
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -442,7 +439,7 @@
               <div class="row">
 
                 <input type=hidden name="oid" value="00DDn000007pfiv">
-                <input type=hidden name="retURL" value="#contact">
+                <input type=hidden name="retURL" target="_blank" value="http://127.0.0.1:5500/assets/pages/agradecimento.html">               
 
                 <!-- 1 -->
                 <div class="col-md-6 form-group">
@@ -458,7 +455,7 @@
                 </div>
                 <!-- 4 -->
                 <div class="col-md-6 form-group">
-                  <input id="00NDn00000NjR66" maxlength="200" name="00NDn00000NjR66" size="20" type="text" class="form-control" placeholder="CNPJ">
+                  <input id="00NDn00000NjR66" maxlength="200" name="00NDn00000NjR66" size="20" type="text" class="form-control" placeholder="CNPJ" maxlength="18">
                 </div>
                 <!-- 5 -->
                 <div class="col-md-6 form-group">
@@ -470,7 +467,36 @@
                 </div>
                 <!-- 7 -->
                 <div class="col-md-6 form-group">
-                  <input id="state" maxlength="20" name="state" size="20" type="text" maxlength="40" size="20" type="text" class="form-control" placeholder="Estado">
+                  <select id="state" class="form-control"  name="state" title="Selecione o Estado" required>
+                    <option value=""> Estado </option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>        
+                </select>
                 </div>
                 <!-- 8 -->
                 <div class="col-md-6 form-group">
@@ -483,11 +509,6 @@
                 </div>
               </div>
 
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
               <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
 
@@ -530,8 +551,8 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Quem Somos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Quem Somos</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Termos de Serviço</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Política de Privacidade</a></li>
@@ -583,7 +604,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>

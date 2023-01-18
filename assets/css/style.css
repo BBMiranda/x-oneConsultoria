@@ -152,6 +152,10 @@ h6 {
   text-transform: uppercase;
 }
 
+.logo span{
+  font-family: "Poppins", sans-serif;
+}
+
 #header .logo a {
   color: #fff;
 }
