@@ -10,9 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/*------------------------------------------------------------------
-Heading / Heading
--------------------------------------------------------------------*/
+/*----------- Heading / Heading ---------------*/
 
 .overlay:before {
   position: absolute;
