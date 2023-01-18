@@ -102,6 +102,11 @@ Hero Area / .hero-area
 .hero-area a{
   color: white;
 }
+
+.hero-area a:hover{
+  color: white;
+}
+
 .hero-area button:hover{
   background-image: linear-gradient(270deg, #b2ff8a 0, #9bfc89 16.67%, #7ef385 33.33%, #58e880 50%, #16dd7c 66.67%, #00d47c 83.33%, #00cd7f 100%);
   
